@@ -295,3 +295,30 @@ hr {
   height: 64px;
   margin-bottom: 122px;
 }
+/* Footer section style */
+footer {
+  background: #111010;
+}
+.footer-container {
+  text-align: center;
+  padding: 128px 0;
+}
+.footer-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 625px;
+  margin: 0 auto 16px auto;
+}
+.copyright-text {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
