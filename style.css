@@ -164,7 +164,12 @@ span {
 /* Instagram Section Style */
 .insta-container{
   margin-top: 128px;
-}
-.title-description{
   text-align: center;
+}
+.insta-img{
+  padding: 0 140px 128px 140px;
+}
+.insta-img img{
+  margin-right: 24px;
+  box-shadow: 4px 4px 4px #E55473;
 }
