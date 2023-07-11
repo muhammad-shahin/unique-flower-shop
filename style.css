@@ -49,6 +49,13 @@
 span {
   color: #e55473;
 }
+hr{
+  border: none;
+  height: 1px;
+  background-color: #E55473;
+  margin: 0 auto 15px auto;
+  width: 50%;
+}
 /* Banner section style */
 .banner-container {
   display: flex;
@@ -175,9 +182,7 @@ span {
 }
 
 /* Seasonal FLower Section Style */
-.seasonal-flower-container{
-  
-}
+
 .seasonal-title-description{
   text-align: center;
   padding-top: 50px;
@@ -191,12 +196,15 @@ span {
   justify-content: space-between;
   align-items: center;
   padding: 0 200px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+}
+.reverse{
+  flex-direction: row-reverse;
 }
 
 .seasonal-flower-title{
   color: #272727;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 800;
   display: flex;
   width: 800px;
