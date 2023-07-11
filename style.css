@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* Shared Style */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.primary-btn {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Banner section style */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.1);
+  padding: 0 200px;
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  display: flex;
+  width: 708px;
+  flex-direction: column;
+  margin-top: 190px;
+}
+.banner-description {
+  display: flex;
+  width: 634px;
+  flex-direction: column;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 32px;
+}
+#shop-now-btn {
+  padding: 20px 43px;
+  margin-top: 32px;
+}
+.banner-img {
+  margin-top: 50px;
+  margin-left: 90px;
+}
